@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Michael Nomitch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstraps and CSS -->
+    <link href="public/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="public/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="public/bootstrap/css/todc-bootstrap.css" rel="stylesheet" media="screen">
+    <link href="application.css" rel="stylesheet" media="screen">
+    <!-- Javascripts -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="jquery-2.0.2.js"></script>
+    <script src="application.js"></script>
+  </head>
+  <body>
+  <div id="content_holder">
+    <div class='row-fluid'>
+      <div class="span3 offset_a_bit" id="first_span">
+        <div class="within_span">
+          <div class="header within_span"> 
+            What I've Done
+          </div>
+          <div class="row-fluid">
+            <div class="span12">
+              <div class="full_project" onclick="projectClick(0)">
+                <div class="project_header" id="TeachingTree"> 
+                  TeachingTree
+                </div>
+                <div class="project_subtitle">
+                  Crowdsourced organiztion of concepts in of college lectures.
+                </div>
+              </div>
+              <div class="full_project" onclick="projectClick(1)">
+                <div class="project_header" id="Two_cents"> 
+                  Two Cents
+                </div>
+                <div class="project_subtitle">
+                  Micro-Review platform for songs and albums.
+                </div>
+              </div>
+              <div class="full_project" onclick="projectClick(2)">
+                <div class="project_header" id="Find_by_shortcut">
+                  Find_by_Shortcut
+                </div>
+                <div class="project_subtitle">
+                  Ruby gem for quicker Active-Record queries.
+                </div>
+              </div>
+              <div class="full_project" onclick="projectClick(3)">
+                <div class="project_header" id="Griddy_city">
+                  Griddy City
+                </div>
+                <div class="project_subtitle">
+                  JS Application for learning the Chicago Grid System.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="span4">
+        <div class="picture_holder" onClick="clickPic()">
+          <img src="me.png" class="actual_image"></img>
+        </div>
+      </div>
+      <div class="span3">
+        <div class="header"> 
+          What I Use
+        </div>
+        <div class="row-fluid">
+          <div class="span6">
+            <div onClick="toolClick('Ruby')" id="Ruby" class="tool_header" > Ruby </div>
+            <div onClick="toolClick('RubyonRails')" id="RubyonRails" class="tool_header" > Ruby on Rails</div>
+            <div onClick="toolClick('HTML5')" id="HTML5" class="tool_header" > HTML5 </div>
+            <div onClick="toolClick('CSS3')" id="CSS3" class="tool_header" > CSS3 </div>
+            <div onClick="toolClick('SCSS')" id="SCSS" class="tool_header" > SCSS </div>
+            <div onClick="toolClick('Git')" id="Git" class="tool_header" > Git </div>
+            <div onClick="toolClick('Heroku')" id="Heroku" class="tool_header" > Heroku </div>
+          </div>
+          <div class="span6">
+            <div onClick="toolClick('Javascript')" id="Javascript" class="tool_header" > Javascript </div>
+            <div onClick="toolClick('Coffeescript')" id="Coffeescript" class="tool_header" > Coffeescript </div>
+            <div onClick="toolClick('Jquery')" id="Jquery" class="tool_header" > Jquery </div>
+            <div onClick="toolClick('Ajax')" id="Ajax" class="tool_header" > Ajax </div>
+            <div onClick="toolClick('Filler')" id="Filler" class="tool_header" > Filler </div>
+            <div onClick="toolClick('D3')" id="D3" class="tool_header" > D3.JS </div>
+            <div onClick="toolClick('Backbone')" id="Backbone" class="tool_header" > Backbone.js </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="relevant_info">
+      <div id="relevant_info_header">
+        Michael Nomitch - Web Developer
+      </div>
+      <div id="relevant_info_text">
+         I am the creator of and sole developer for TeachingTree, an online platform for easily accessing concepts within college-level math and computer science lectures. Additionally, I recently launched TwoCents, a simple way to quickly share your thoughts on music with friends.
+         </br></br>
+         Click each project for more information or check out my LinkedIn and GitHub pages.
+      </div>
+    </div>
+  </div>
+    
+
+
+
+
+
+  </body>
+</html>

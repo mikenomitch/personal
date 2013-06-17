@@ -1,0 +1,141 @@
+/*This is where my css goes wahoo*/
+
+html{
+  height: 100%;
+  /*font-family: 'Libre Baskerville', serif;*/
+  /*font-family: 'Cantarell', sans-serif;*/
+  /*font-family: 'Open Sans', sans-serif;*/
+}
+
+body{
+  /*background: url("white_wall_hash.png");*/
+  background-color: #FFF;
+  color: #525252;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.test_text{
+  color:red;
+}
+
+#content_holder{
+  margin-top: 30px;
+  height: 100%;
+  padding-left: 10px;
+}
+
+#left_rail{
+  border-right: solid;
+  border-width: 1px;
+  border-color: #BBB;
+}
+
+#bottom_content, #top_content{
+  width: 95%;
+  margin-left: 10px;
+  padding-right: 10px;
+}
+
+#bottom_content{
+  margin-top: 30px;
+}
+
+.header{
+  font-size: 2.1em;
+  font-weight: 800;
+  text-align: center;
+  display: inline-block;
+  padding-bottom: 4px;
+  border-bottom: solid;
+  border-color: #BBB;
+  border-width: 1px;
+}
+
+.full_project{
+  margin: 0px;
+  margin-top: 17px;
+  margin-right: 0px;
+  cursor: pointer;  
+}
+
+.project_header{
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.project_subtitle{
+  width: 95%;
+}
+
+.tool_header{
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-top:7px;
+  cursor: pointer;
+}
+
+.picture_holder{
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 30px;
+  border-color: white;
+}
+
+.actual_image, .project_image{
+  /*border: solid;*/
+  /*border-color: #CCC;*/
+  border-radius: 9990px; 
+  border-width: 10px;
+  /*border-color: white;*/
+  height:290px;
+}
+
+.project_image{
+  border-radius: 20px; 
+}
+
+#relevant_info{
+  margin-top: 20px;
+  border-top: solid 1px #BBB;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#relevant_info_header{
+  margin: 10 auto;
+  font-size: 2em;
+  font-weight: 800;
+}
+
+#relevant_info_text{
+  text-align: left;
+  margin-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 1.3em;
+}
+
+.right_pad{
+  padding-right: 2%;
+}
+
+.shadowed{
+  text-shadow:0 0 5px #AAA;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -kthtml-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.unshadowed{
+  text-shadow:none;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -kthtml-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
