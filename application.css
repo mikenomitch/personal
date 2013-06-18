@@ -46,7 +46,7 @@ body{
   font-weight: 800;
   text-align: center;
   display: inline-block;
-  padding-bottom: 4px;
+  padding-bottom: 6px;
   border-bottom: solid;
   border-color: #BBB;
   border-width: 1px;
@@ -61,11 +61,15 @@ body{
 
 .project_header{
   font-size: 1.4em;
-  font-weight: 700;
+  font-weight: 400;
+  padding: 2px;
+  padding-bottom:1px;
 }
 
 .project_subtitle{
   width: 95%;
+  padding: 2px;
+  padding-bottom:4px;
 }
 
 .tool_header{
@@ -73,6 +77,7 @@ body{
   font-weight: 500;
   margin-top:7px;
   cursor: pointer;
+  padding: 1px;
 }
 
 .picture_holder{
@@ -96,8 +101,8 @@ body{
 }
 
 #relevant_info{
-  margin-top: 20px;
-  border-top: solid 1px #BBB;
+  margin-top: 12px;
+  /*border-top: solid 1px #BBB;*/
   padding-top: 20px;
   text-align: center;
 }
@@ -121,7 +126,8 @@ body{
 }
 
 .shadowed{
-  text-shadow:0 0 5px #AAA;
+  font-weight: 700;
+  /*text-shadow:0 0 10px #AAA;*/
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
@@ -131,6 +137,8 @@ body{
 }
 
 .unshadowed{
+  /*font-weight: 400;*/
+  /*color: #525252;*/
   text-shadow:none;
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
