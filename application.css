@@ -11,7 +11,6 @@ body{
   /*background: url("white_wall_hash.png");*/
   background-color: #FFF;
   color: #525252;
-  height: 100%;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -22,13 +21,13 @@ body{
 #content_holder{
   margin-top: 30px;
   height: 100%;
-  padding-left: 10px;
 }
 
 #left_rail{
   border-right: solid;
   border-width: 1px;
   border-color: #BBB;
+  margin-left: 10px;
 }
 
 #bottom_content, #top_content{
