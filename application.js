@@ -155,6 +155,15 @@ switch(value)
   $("#relevant_info_picture").html(new_pic)
 }
 
+
+function redirectTo(html){
+  window.location.href = html;
+}
+
+
+
+
+
 // DATA DATA DATA
 // DATA DATA DATA
 // DATA DATA DATA

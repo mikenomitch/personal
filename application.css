@@ -147,3 +147,7 @@ body{
   -kthtml-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
+
+.link{
+  cursor: pointer;
+}
