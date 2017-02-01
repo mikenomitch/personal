@@ -24,3 +24,15 @@ resource "aws_s3_bucket_object" "styles" {
   key    = "application.css"
   source = "../src/application.css"
 }
+
+resource "aws_route53_record" "mikenomitch" {
+  zone_id = "${var.zone_id}"
+  name    = "mikenomitch.com"
+  type    = "A"
+
+  alias {
+    name                   = "${aws_s3_bucket.personal.bucket}"
+    zone_id                = "${var.zone_id}"
+    evaluate_target_health = false
+  }
+}
