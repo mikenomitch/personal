@@ -1,12 +1,8 @@
 html{
   height: 100%;
-  /*font-family: 'Libre Baskerville', serif;*/
-  /*font-family: 'Cantarell', sans-serif;*/
-  /*font-family: 'Open Sans', sans-serif;*/
 }
 
 body{
-  /*background: url("white_wall_hash.png");*/
   background-color: #FFF;
   color: #525252;
   font-family: 'Open Sans', sans-serif;
