@@ -4,7 +4,7 @@
 
 - To deploy the page you need to add access_key, secret_key, bucket_name and zone_id variables to terraform.tfvars.
 
-- Then you need to run terraform apply to spin up the resources.
+- Then you need to run terraform apply to spin up the resources. (terraform destroy && terraform apply might be needed)
 
 - Then you make adjustments to Route53 accordingly (unfortunately terraform currently has a bug with Route53 that stops this from being fully automated)
 
