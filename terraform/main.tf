@@ -15,11 +15,13 @@ resource "aws_s3_bucket" "personal_no_www" {
   }
 }
 
+# testing
+
 resource "aws_s3_bucket" "personal_www" {
   bucket = "www.${var.bucket_name}"
   acl = "public-read"
-  hosted_zone_id = "${var.zone_id}"
   policy = "${file("./www_bucket_policy.json")}"
+  hosted_zone_id = "${var.zone_id}"
 
   website {
     index_document = "index.html"
