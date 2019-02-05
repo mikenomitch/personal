@@ -1,3 +1,21 @@
+terraform {
+  backend "remote" {
+    hostname = "app.terraform.io"
+    organization = "nomitech"
+    token = "${tfe_token}"
+
+
+    workspaces {
+      name = "personal"
+    }
+  }
+
+  credentials "app.terraform.io" {
+    token = "${tfe_token}"
+  }
+}
+
+
 provider "aws" {
   access_key = "${var.access_key}"
   secret_key = "${var.secret_key}"
