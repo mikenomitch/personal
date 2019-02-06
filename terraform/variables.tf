@@ -6,4 +6,3 @@ variable "region" {
 
 variable "bucket_name" {}
 variable "zone_id" {}
-variable "tfe_token" {}
