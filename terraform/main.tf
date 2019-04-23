@@ -11,7 +11,7 @@ resource "aws_s3_bucket" "personal_no_www" {
   policy = "${file("./no_www_bucket_policy.json")}"
 
   website {
-    index_document = "index.html"
+    index_document = "ind.html"
   }
 }
 
@@ -24,7 +24,7 @@ resource "aws_s3_bucket" "personal_www" {
   hosted_zone_id = "${var.zone_id}"
 
   website {
-    index_document = "index.html"
+    index_document = "ind.html"
   }
 }
 
@@ -33,9 +33,9 @@ resource "aws_s3_bucket_object" "index" {
 
   acl = "public-read"
   bucket = "${aws_s3_bucket.personal_no_www.bucket}"
-  key    = "index.html"
+  key    = "ind.html"
   content_type  = "text/html"
-  source = "../src/index.html"
+  source = "../src/ind.html"
 }
 
 resource "aws_s3_bucket_object" "styles" {
